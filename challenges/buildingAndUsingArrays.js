@@ -117,28 +117,28 @@
  const originalArray = []
  const aRrayName = []
  // Itterate array with .forEach at the index
- originalArray.forEach(index => {
-     console.log(index);
-     //push string to new array
-     aRrayName.push(`Property1 ${index.property1}, Property2 ${index.property2}`)
- })
- console.log(aRrayName);
+//  originalArray.forEach(index => {
+//      console.log(index);
+//      //push string to new array
+//      aRrayName.push(`Property1 ${index.property1}, Property2 ${index.property2}`)
+//  })
+//  console.log(aRrayName);
  //////////////////////////////////////////////////////////////////////////////////////////////////////////////
- const newArrayName = []
- arrayName.forEach(index => {
-     newArrayName.push(`Some words ${index.property1} more words ${index.property3}`)
- })
- console.log(newArrayName)
+//  const newArrayName = []
+//  arrayName.forEach(index => {
+//      newArrayName.push(`Some words ${index.property1} more words ${index.property3}`)
+//  })
+//  console.log(newArrayName)
  ////////////////////////////////////////////////////////////////////////////////////////////////////
  const origArray = []
  const newARRay = []
  //.forEach(whatever) === create empty object
  const value1 = {}
  const value3 = {}
- origArray.forEach((newObject, indexOfObject) => {
-     //
-     newARRay.push(`Template literal ${newObject.property1} Template literal ${newObject.property2} index${indexOfObject}`)
- })
+//  origArray.forEach((newObject, indexOfObject) => {
+//      //
+//      newARRay.push(`Template literal ${newObject.property1} Template literal ${newObject.property2} index${indexOfObject}`)
+//  })
  console.log(newARRay)
  const emptyArray = []
  emptyArray.push({
@@ -167,4 +167,4 @@
      accumulator + currentValue,
      0
  );
- console.log(currentValue)
+//  console.log(currentValue)
